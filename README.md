@@ -1,5 +1,7 @@
 # Blade Feather icons 
 
+**Package is still under development - Aiming for a release on Sunday 2020/06/28**
+
 A package to easily make use of [Feather Icons]() in your Laravel Blade views. 
 
 For a full list of available icons see the [SVG directory].
