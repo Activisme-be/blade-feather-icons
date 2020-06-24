@@ -1,0 +1,40 @@
+{
+  "name": "actb/blade-feather-icons",
+  "type": "library",
+  "description": "A package to easily make use of Feather Icons in your Laravel Blade views.",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "blade-ui-kit/blade-icons": "^0.4.0",
+    "illuminate/support": "^7.14"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^5.0",
+      "phpunir/phpunit": "^8.0|^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Actb\\BladeFeatherIcons\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Actb\\BladeFeatherIcons\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Actb\\BladeFeatherIcons\\FeatherIconsServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
